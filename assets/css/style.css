@@ -57,3 +57,39 @@ p.companyhistory {
   flex-direction: column;
   align-items: center;
 }
+h2 {
+  align-items: center;
+}
+.clipper-image {
+  width: 10%;
+   height: auto; 
+ float: right;
+display: inline-block;
+}
+#text-align {
+  text-align: center;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  }
+  div.gallery img {
+      width: 70%;
+      height: auto;
+      }
+
+      #location {
+        clear: left;
+        background-image: url("https://media.istockphoto.com/id/483659149/photo/professional-scissors.webp?b=1&s=170667a&w=0&k=20&c=jg_d5FMscvIxskjabgGzqSVtF_pCLNUHPT9rEwSpx_Q=");
+        background-repeat: no-repeat;
+        padding: 10px;
+        font-size: 100%; 
+      text-align: left;
+      background-position: center;
+      background-size: cover;  
+        height: 700px; 
+       width: auto; 
+       align-items: center; 
+     }  
