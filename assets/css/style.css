@@ -48,3 +48,12 @@ align-items: center;
     color: black;
 
 }
+a {
+  color: black;
+}
+p.companyhistory {
+  text-align: left;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+}
