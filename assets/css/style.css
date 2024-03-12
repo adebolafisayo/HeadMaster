@@ -13,8 +13,10 @@
 } 
 h1 {
     color: crimson;
+    font-size: larger;
     padding: 15px;
     border: 19px;
+    background: black;
 }
 #owner {
   background-image: url("https://media.istockphoto.com/id/1374453227/photo/shot-of-a-young-businesswoman-standing-in-an-office-at-work.webp?b=1&s=170667a&w=0&k=20&c=sUfpzZQt8vdDS-Ev7dbbwIbC9afxNchfAxecrO9WwHY=");
@@ -36,4 +38,13 @@ align-items: center;
     font-size: 19px;
     padding: 6px;
     background: black;
+}
+.button {
+  border-style: solid;
+  border-color: black;
+    border: 25px;
+    padding: 3px;
+    background: white;
+    color: black;
+
 }
