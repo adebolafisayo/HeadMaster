@@ -1,0 +1,18 @@
+#home {
+    background-image: url('https://media.istockphoto.com/id/1472388969/photo/smiling-barber-and-customer-in-the-barbershop-watching-a-video-on-a-smartphone.webp?b=1&s=170667a&w=0&k=20&c=3vMBrw5ueOk6HFQnaCVb0-Y4Tva-uMKqelKIcARONWM=');
+    background-repeat: no-repeat;
+    padding: 20px;
+  font-size: 200%;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  /* border-bottom: 30px solid #0f4098;  */
+   width: auto;
+  align-items: center;
+   
+} 
+h1 {
+    color: crimson;
+    padding: 15px;
+    border: 19px;
+}
