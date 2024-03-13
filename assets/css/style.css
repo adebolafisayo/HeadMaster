@@ -145,5 +145,15 @@ div.gallery {
     margin: 20px;
   }
 
+  form {
+    
+    background: bisque;
+    right: auto;
+    padding: 51px;
+    border: solid;
+    width: 492px;
+              
+  }
+
 
   
