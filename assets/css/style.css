@@ -122,20 +122,28 @@ div.gallery {
       color: black;
       text-decoration: none;
   }
-  .appointment {
-    text-align: center;
-    width: 70px;
-    background-color: khaki;
-  border-radius: 50%;
-  border: 3px;
-  height: 70px;
+ 
+  
+
+
+   tr  {
+   
+    /* color: brown; */
+    background: bisque;
+    border-radius: 50px;
+    border: 10px;
+    margin-block: 10px;
+    padding: 1px;
+    margin: 20px;
+    width: auto;
+   height: 120px;
+
   }
-  .appointment-booking {
-    background-image: url("https://media.istockphoto.com/id/1441548690/photo/black-customers-receive-a-haircut-from-barbers-at-a-black-owned-barbershop.webp?b=1&s=170667a&w=0&k=20&c=PS8rPXHdV_9u_11gERlxIfQtMLI-fTh5smGM-eoa4eg=");
-    background-repeat: no-repeat;
-    width: 70%;
-    height: 70%;
-    background-size: cover;
+
+   #appointment {
+    border-radius: 100px;
+    margin: 20px;
   }
+
 
   
