@@ -158,6 +158,34 @@ div.gallery {
     color: black;
     background: darkorange;
   }
+  .prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .price {
+    background-color: white;
+    border: 1px #9C7957 solid;
+    padding: 15px;
+    border-radius: 3px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: calc(50% - 52px);
+    width: 100%;
+  }
+  
+div span {
 
+   font-size: x-large;
+  background: burlywood;
+  border: black;
+  padding: 1%;
+  border-radius: 100%;
+
+}
 
   
