@@ -9,8 +9,11 @@
   /* border-bottom: 30px solid #0f4098;  */
    width: auto;
   align-items: center;
-   
+  display: flex;
+  flex-direction: column;
 } 
+
+
 h1 {
     color: crimson;
     font-size: larger;
@@ -21,12 +24,12 @@ h1 {
 #owner {
   background-image: url("https://media.istockphoto.com/id/1374453227/photo/shot-of-a-young-businesswoman-standing-in-an-office-at-work.webp?b=1&s=170667a&w=0&k=20&c=sUfpzZQt8vdDS-Ev7dbbwIbC9afxNchfAxecrO9WwHY=");
   background-repeat: no-repeat;
+  background-size: 90px 90px;
   padding: 10px;
   font-size: 150%; 
 text-align: left;
 background-position: center;
 background-size: cover;
-/* border-bottom: 30px solid #0f4098;  */
 height: 500px;
 width: auto;
 align-items: center;
