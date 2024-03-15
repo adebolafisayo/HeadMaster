@@ -178,7 +178,7 @@ div.gallery {
     width: 100%;
   }
   
-div span {
+.price span {
 
    font-size: x-large;
   background: burlywood;
@@ -187,5 +187,16 @@ div span {
   border-radius: 100%;
 
 }
-
+footer h3 {
+  /* color: #fff; */
+  margin-bottom: 20px;
+  text-transform: none;
+  font-weight: 200;
+  font-size: 22px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+#footer-section {
+  justify-content: space-between;
+}
   
