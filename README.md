@@ -60,4 +60,10 @@ Add a submit and reset button
 Add validation to firstname, lastname, email, sort code and account number on the user information page
 ![alt text](image-8.png)
 
+Payment Confirmation Page
+
+
+Given a user has submitted the user information form, then navigate the customer to payment confirmation page
+![alt text](image-9.png)
+
 
