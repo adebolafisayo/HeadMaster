@@ -66,4 +66,18 @@ Payment Confirmation Page
 * Given a user has submitted the user information form, then navigate the customer to payment confirmation page
 ![alt text](image-9.png)
 
+Testing
+
+* I can confirm this page works in chrome and microsoft edge
+
+* I can confirm the form in the user information page works 
+
+* I can confirm the navigation links works and the pages are responsive
+
+Bugs
+
+* When I was working on other pages, I noticed the css was not applied 
+* I resolved this by using the link tag below
+<link rel="stylesheet" href="assets/css/style.css"> 
+
 
