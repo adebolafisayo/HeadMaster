@@ -179,14 +179,13 @@ div.gallery {
   .price {
     background-color: white;
     border: 1px #9C7957 solid;
-    padding: 15px;
+    padding: 30px;
     border-radius: 3px;
     display: flex;
     margin: 10px;
     align-items: center;
     justify-content: space-between;
-    max-width: calc(50% - 52px);
-    width: 100%;
+    width: 35%;
   }
   
 .price span {
@@ -194,7 +193,7 @@ div.gallery {
    font-size: x-large;
   background: burlywood;
   border: black;
-  padding: 1%;
+  padding: 4%;
   border-radius: 100%;
 
 }
