@@ -8,13 +8,13 @@ Features
 
 Navigation
 
-*The navigation button should be by the left of the page
+* The navigation button should be by the left of the page
 
-*The navigation text should be black in colour
+* The navigation text should be black in colour
 
-**The navigation text should be in upper case
+* The navigation text should be in upper case
 
-When the navigation link is clicked, it should take the customer to the specific section
+* When the navigation link is clicked, it should take the customer to the specific section
 ![alt text](image-1.png)
 
 
