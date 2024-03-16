@@ -139,7 +139,7 @@ div.gallery {
 
 
    tr  {
-    background: bisque;
+    background: white;
     border-radius: 20px;
     border: 10px;
     margin-block: 10px;
@@ -216,6 +216,8 @@ img {
 }
 table {
   border-spacing: 30px;
+  padding: 30px;
+  
 }
 
 
