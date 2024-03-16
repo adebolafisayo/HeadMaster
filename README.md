@@ -17,6 +17,8 @@ The navigation text should be in upper case
 When the navigation link is clicked, it should take the customer to the specific section
 ![alt text](image-1.png)
 
+
+
 About Us (Homepage)
 
 Given a customer lands on the homepage, the "about us" text is displayed right under a text that says "THE GENTLEMEN'S BARBERSHOP"
@@ -33,5 +35,19 @@ Given a customer is navigated to the "about us" page, show a paragraph that desc
 
 On the headmaster "about us" page display the price list
 ![alt text](image-4.png)
+
+
+
+Book An Appointment
+
+Given a customer clicks on "BOOK AN APPOINTMENT" button on the navigation link in the homepage, then they land on "Schedule appointment" button
+![alt text](image-5.png)
+
+When the "schedule appointment" is clicked, customer is navigated to book appointment page
+![alt text](image-6.png)
+
+When a customer click on a timeslot, they are navigated to the User information page.
+![alt text](image-7.png)
+
 
 
