@@ -21,49 +21,49 @@ Navigation
 
 About Us (Homepage)
 
-Given a customer lands on the homepage, the "about us" text is displayed right under a text that says "THE GENTLEMEN'S BARBERSHOP"
+* Given a customer lands on the homepage, the "about us" text is displayed right under a text that says "THE GENTLEMEN'S BARBERSHOP"
 
-The about us text background should have a colour of mediumaquamarine
+* The about us text background should have a colour of mediumaquamarine
 
-When the "about us" button is click, it navigates customer to another page  
+* When the "about us" button is click, it navigates customer to another page  
 ![alt text](image-2.png)
 
 About Us Page
 
-Given a customer is navigated to the "about us" page, show a paragraph that describes the headmaster business
+* Given a customer is navigated to the "about us" page, show a paragraph that describes the headmaster business
 ![alt text](image-3.png)
 
-On the headmaster "about us" page display the price list
+* On the headmaster "about us" page display the price list
 ![alt text](image-4.png)
 
 
 
 Book An Appointment
 
-Given a customer clicks on "BOOK AN APPOINTMENT" button on the navigation link in the homepage, then they land on "Schedule appointment" button
+* Given a customer clicks on "BOOK AN APPOINTMENT" button on the navigation link in the homepage, then they land on "Schedule appointment" button
 ![alt text](image-5.png)
 
-When the "schedule appointment" is clicked, customer is navigated to book appointment page
+* When the "schedule appointment" is clicked, customer is navigated to book appointment page
 ![alt text](image-6.png)
 
-When a customer click on a timeslot, they are navigated to the User information page.
+* When a customer click on a timeslot, they are navigated to the User information page.
 ![alt text](image-7.png)
 
 
 User Information Page
 
 
-*Add fields for details, more information, more information, other services, bank information to the user information page
+* Add fields for details, more information, more information, other services, bank information to the user information page
 
-*Add a submit and reset button
+* Add a submit and reset button
 
-*Add validation to firstname, lastname, email, sort code and account number on the user information page
+* Add validation to firstname, lastname, email, sort code and account number on the user information page
 ![alt text](image-8.png)
 
 Payment Confirmation Page
 
 
-Given a user has submitted the user information form, then navigate the customer to payment confirmation page
+* Given a user has submitted the user information form, then navigate the customer to payment confirmation page
 ![alt text](image-9.png)
 
 
