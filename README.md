@@ -14,5 +14,8 @@ The navigation text should be black in colour
 
 The navigation text should be in upper case
 
-Given you are on the home page , the name of the business (headmaster) is displayed at the left corner
+When the navigation link is clicked, it should take the customer to the specific section
+![alt text](image-1.png)
+
+
 
