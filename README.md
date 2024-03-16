@@ -51,9 +51,13 @@ When a customer click on a timeslot, they are navigated to the User information 
 
 
 User Information Page
-Add fields for details, more information, more information, bank information to the user information page
 
-Add a field for other services
+
+Add fields for details, more information, more information, other services, bank information to the user information page
+
+Add a submit and reset button
 
 Add validation to firstname, lastname, email, sort code and account number on the user information page
 ![alt text](image-8.png)
+
+
