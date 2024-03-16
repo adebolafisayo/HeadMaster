@@ -9,7 +9,10 @@ Features
 Navigation
 
 The navigation button should be by the left of the page
+
 The navigation text should be black in colour
+
 The navigation text should be in upper case
+
 Given you are on the home page , the name of the business (headmaster) is displayed at the left corner
 
