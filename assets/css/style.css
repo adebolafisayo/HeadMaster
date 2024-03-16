@@ -140,7 +140,7 @@ div.gallery {
 
    tr  {
     background: bisque;
-    border-radius: 50px;
+    border-radius: 20px;
     border: 10px;
     margin-block: 10px;
     padding: 1px;
@@ -151,7 +151,7 @@ div.gallery {
   }
 
    #appointment {
-    border-radius: 100px;
+    border-radius: 20px;
     margin: 20px;
   }
 
@@ -214,7 +214,9 @@ img {
   line-height: 32px;    
   margin-bottom: 30px; 
 }
-
+table {
+  border-spacing: 30px;
+}
 
 
   
