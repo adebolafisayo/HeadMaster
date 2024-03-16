@@ -15,7 +15,7 @@ Navigation
 * The navigation text should be in upper case
 
 * When the navigation link is clicked, it should take the customer to the specific section
-![alt text](image-1.png)
+![alt text](/images/image-1.png)
 
 
 
@@ -26,28 +26,28 @@ About Us (Homepage)
 * The about us text background should have a colour of mediumaquamarine
 
 * When the "about us" button is click, it navigates customer to another page  
-![alt text](image-2.png)
+![alt text](/images/image-2.png)
 
 About Us Page
 
 * Given a customer is navigated to the "about us" page, show a paragraph that describes the headmaster business
-![alt text](image-3.png)
+![alt text](/images/image-3.png)
 
 * On the headmaster "about us" page display the price list
-![alt text](image-4.png)
+![alt text](/images/image-4.png)
 
 
 
 Book An Appointment
 
 * Given a customer clicks on "BOOK AN APPOINTMENT" button on the navigation link in the homepage, then they land on "Schedule appointment" button
-![alt text](image-5.png)
+![alt text](/images/image-5.png)
 
 * When the "schedule appointment" is clicked, customer is navigated to book appointment page
-![alt text](image-6.png)
+![alt text](/images/image-6.png)
 
 * When a customer click on a timeslot, they are navigated to the User information page.
-![alt text](image-7.png)
+![alt text](/images/image-7.png)
 
 
 User Information Page
@@ -58,13 +58,13 @@ User Information Page
 * Add a submit and reset button
 
 * Add validation to firstname, lastname, email, sort code and account number on the user information page
-![alt text](image-8.png)
+![alt text](/images/image-8.png)
 
 Payment Confirmation Page
 
 
 * Given a user has submitted the user information form, then navigate the customer to payment confirmation page
-![alt text](image-9.png)
+![alt text](/images/image-9.png)
 
 Testing
 
@@ -82,19 +82,19 @@ Bugs
 
 Validator Testing
 * No error was returned when i validated through W3C validator
-![alt text](image-10.png)
+![alt text](/images/image-10.png)
 
 Accessibility 
 
 * Accessibility passed based on lighthouse used in dev tool
 * Homepage
-![alt text](image-11.png)
+![alt text](/images/image-11.png)
 
 * About Us Page
-![alt text](image-12.png)
+![alt text](/images/image-12.png)
 
 * Book Appointment Page
-![alt text](image-13.png)
+![alt text](/images/image-13.png)
 
 Unfixed Bug
 * No unfixed bug
