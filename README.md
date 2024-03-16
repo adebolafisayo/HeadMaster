@@ -106,5 +106,7 @@ Deployment
 * Save the main page, click on the link generated
 * The live link can be found here https://adebolafisayo.github.io/HeadMaster/
 
+Credits
 
+* Most of the images and link was copied from google.
 
