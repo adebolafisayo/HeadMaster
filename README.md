@@ -84,13 +84,27 @@ Validator Testing
 * No error was returned when i validated through W3C validator
 ![alt text](image-10.png)
 
-* Accessibility
+Accessibility 
+
+* Accessibility passed based on lighthouse used in dev tool
 * Homepage
 ![alt text](image-11.png)
 
 * About Us Page
 ![alt text](image-12.png)
 
-*Book Appointment Page
+* Book Appointment Page
 ![alt text](image-13.png)
+
+Unfixed Bug
+* No unfixed bug
+
+Deployment
+* The site was deployed to Github pages. The steps to follow for deployment are :
+* Navigate to settings on the repository
+* Click on pages and then select main as the branch
+* Save the main page, click on the link generated
+* The live link can be found here https://adebolafisayo.github.io/HeadMaster/
+
+
 
