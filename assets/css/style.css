@@ -21,6 +21,7 @@ h1 {
     border: 19px;
     background: black;
 }
+
 #owner {
   background-image: url("https://media.istockphoto.com/id/1374453227/photo/shot-of-a-young-businesswoman-standing-in-an-office-at-work.webp?b=1&s=170667a&w=0&k=20&c=sUfpzZQt8vdDS-Ev7dbbwIbC9afxNchfAxecrO9WwHY=");
   background-repeat: no-repeat;
@@ -42,10 +43,9 @@ h1 {
     color: yellowgreen;
     font-size: 19px;
     padding: 6px;
-    background: black;
-
-    
+    background: black;    
 }
+
 .button {
   border-style: solid;
   border-color: black;
@@ -53,36 +53,44 @@ h1 {
     padding: 3px;
     background:mediumaquamarine;
     color: black;
-
 }
+
 a {
   color: black;
 }
+
 p.companyhistory {
   text-align: left;
  display: flex;
   flex-direction: column;
   align-items: center;
+  line-height: 32px;    
+ margin-bottom: 30px; 
 }
+
 h2 {
   align-items: center;
   margin: 3px;
 }
+
 .clipper-image {
   width: 10%;
    height: auto; 
  float: right;
 display: inline-block;
 }
+
 #text-align {
   text-align: center;
 }
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
   }
+
   div.gallery img {
       width: 70%;
       height: auto;
@@ -101,11 +109,7 @@ div.gallery {
        width: auto; 
        align-items: center; 
      }  
-
-     P {
-      line-height: 32px;   
-      margin-bottom: 30px; 
-     } 
+ 
      
      header {
       background-color: white;
@@ -135,8 +139,6 @@ div.gallery {
 
 
    tr  {
-   
-    /* color: brown; */
     background: bisque;
     border-radius: 50px;
     border: 10px;
@@ -166,6 +168,7 @@ div.gallery {
     color: black;
     background: darkorange;
   }
+
   .prices {
     display: flex;
     flex-wrap: wrap;
@@ -195,16 +198,24 @@ div.gallery {
   border-radius: 100%;
 
 }
-footer h3 {
-  /* color: #fff; */
-  margin-bottom: 20px;
-  text-transform: none;
-  font-weight: 200;
-  font-size: 22px;
-  letter-spacing: 1px;
-  width: 100%;
+ .footer {
+  width: auto;
+  background-color: dimgrey;
+  display: flex;
+ }
+
+.footer-details {
+  flex: 50%;
+  padding: 10px;
 }
-#footer-section {
-  justify-content: space-between;
+img {
+  width: 54px;
 }
+.height {
+  line-height: 32px;    
+  margin-bottom: 30px; 
+}
+
+
+
   
