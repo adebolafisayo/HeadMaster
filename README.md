@@ -80,4 +80,17 @@ Bugs
 * I resolved this by using the link tag below
 <link rel="stylesheet" href="assets/css/style.css"> 
 
+Validator Testing
+* No error was returned when i validated through W3C validator
+![alt text](image-10.png)
+
+* Accessibility
+* Homepage
+![alt text](image-11.png)
+
+* About Us Page
+![alt text](image-12.png)
+
+*Book Appointment Page
+![alt text](image-13.png)
 
