@@ -26,3 +26,12 @@ The about us text background should have a colour of mediumaquamarine
 When the "about us" button is click, it navigates customer to another page  
 ![alt text](image-2.png)
 
+About Us Page
+
+Given a customer is navigated to the "about us" page, show a paragraph that describes the headmaster business
+![alt text](image-3.png)
+
+On the headmaster "about us" page display the price list
+![alt text](image-4.png)
+
+
