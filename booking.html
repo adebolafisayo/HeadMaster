@@ -1,93 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata and link to external CSS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User information</title>
     <link rel="stylesheet" href="assets/css/style.css"> 
 </head>
 <body>
+    <!-- Header section -->
     <header>
         <h1>User information</h1>      
     </header>
+
+    <!-- User information form -->
     <form action="./paymentConfirmation.html" method="get">
-    <fieldset>
-        <legend><strong>Your details</strong></legend>
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="fname"
-               placeholder="Enter your first name"
-               required>
-                <br>
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lname"
-               placeholder="Enter your last name"
-               required>
-               <br>
-               <label for="lname">Email</label>
-               
-        <input type="email" id="email" name="email"
-               placeholder="Enter your email"
-               required>
-    </fieldset>     
-               <br>
-               <textarea name="note" id="note" placeholder="Any more information" rows="10" cols="20"></textarea>
-               <fieldset>
-                <legend><strong>Tick other services you want</strong></legend>
-                    <input type="checkbox" id="hair-dye" name="hair-dye">
-                    <label for="hair-dye">Hair dye</label>
-                    <br>
-                    <input type="checkbox" id="Beard-trimming" name="Beard-trimming">
-                    <label for="Beard-trimming"> Beard trimming</label>
-            </fieldset>
-         <br> 
-         <fieldset>
-            <legend><strong>Bank Information</strong></legend>
-            <label>Bank Name</label>
-        <select id="bdetails" name="bdetails">
-            <option value="halifax">Halifax</option>
-            <option value="santander">Santander</option>
-            <option value="barclays">barclays</option>
-            <option value="lyods">Lyods</option>
-            <option value="hsbc">Hsbc</option>
-            <option value="virgin-money">Virgin Money</option>
-            
-        </select> 
-        <label for="sort-code">Sort code</label>
-    <input type="text" id="sort-code" name="sort-code"
-           placeholder="sort code"
-           required>
-           <label for="acc-num">Account number</label>
-           <input type="text" id="acc-num" name="acc-num"
-                  placeholder="account number"
-                  required>
-        </fieldset>
+        <fieldset>
+            <legend><strong>Your details</strong></legend>
+            <!-- First name input -->
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname"
+                   placeholder="Enter your first name"
+                   required>
             <br>
-            <button type="submit">Submit</button>
-              <button type="reset">Reset</button>
-            </form>
-            <footer id="footer-section">
-                <div class="footer">
-                    <div class="footer-details">
-                        <h3>Get In Touch</h3>
-                        <p class="footerparagraph">016123456</p>
-                        <img class="margin-bottom" src="https://tse3.mm.bing.net/th?id=OIP.Yku7cvp2BmTrZVfvudAv3AHaHa&pid=Api&P=0&h=180" alt="email">
-                        
-                        <p class="footerparagraph">headmaster@gmail.com</p>
-                        <a href="www.facebook.com" target="_blank">
-                            <img src="https://tse4.mm.bing.net/th?id=OIP.hIHTOTnK_Y4qRZpYjmkItwHaHa&pid=Api&P=0&h=180" alt="facebook">
-                        </a>
-                        <a href="www.instagram.com">
-                            <img src="https://tse1.mm.bing.net/th?id=OIP.RBupAYyVNE_pBjtoBUJZ5AHaHI&pid=Api&P=0&h=180" alt="instagram">
-                        </a>
-                    </div>
-                    <div class="footer-details">
-                        <h3>Address</h3>
-                        <p class="footerparagraph">14 Penshurst</p>
-                        <p class="footerparagraph">Leeds</p>
-                    </div>
+            <!-- Last name input -->
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname"
+                   placeholder="Enter your last name"
+                   required>
+            <br>
+            <!-- Email input -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email"
+                   required>
+        </fieldset>     
+        <br>
+        <!-- Additional information textarea -->
+        <textarea name="note" id="note" placeholder="Any more information" rows="10" cols="20"></textarea>
         
-                </div>
-               
-               </footer> 
+        <fieldset>
+            <legend><strong>Tick other services you want</strong></legend>
+            <!-- Additional services checkboxes -->
+            <input type="checkbox" id="hair-dye" name="hair-dye">
+            <label for="hair-dye">Hair dye</label>
+            <br>
+            <input type="checkbox" id="Beard-trimming" name="Beard-trimming">
+            <label for="Beard-trimming">Beard trimming</label>
+        </fieldset>
+        
+        <br> 
+        <fieldset>
+            <legend><strong>Bank Information</strong></legend>
+            <!-- Bank details selection -->
+            <label>Bank Name</label>
+            <select id="bdetails" name="bdetails">
+                <option value="halifax">Halifax</option>
+                <option value="santander">Santander</option>
+                <option value="barclays">Barclays</option>
+                <option value="lyods">Lyods</option>
+                <option value="hsbc">Hsbc</option>
+                <option value="virgin-money">Virgin Money</option>
+            </select>
+            <!-- Sort code input -->
+            <label for="sort-code">Sort code</label>
+            <input type="text" id="sort-code" name="sort-code"
+                   placeholder="sort code"
+                   required>
+            <!-- Account number input -->
+            <label for="acc-num">Account number</label>
+            <input type="text" id="acc-num" name="acc-num"
+                   placeholder="account number"
+                   required>
+        </fieldset>
+        
+        <br>
+        <!-- Form buttons -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+    <!-- Footer section -->
+    <footer id="footer-section">
+        <div class="footer">
+            <!-- Contact details -->
+            <div class="footer-details">
+                <h3>Get In Touch</h3>
+                <p class="footerparagraph">016123456</p>
+                <img class="margin-bottom" src="https://tse3.mm.bing.net/th?id=OIP.Yku7cvp2BmTrZVfvudAv3AHaHa&pid=Api&P=0&h=180" alt="email">
+                <p class="footerparagraph">headmaster@gmail.com</p>
+                <!-- Social media links -->
+                <a href="www.facebook.com" target="_blank">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.hIHTOTnK_Y4qRZpYjmkItwHaHa&pid=Api&P=0&h=180" alt="facebook">
+                </a>
+                <a href="www.instagram.com" target="_blank">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.RBupAYyVNE_pBjtoBUJZ5AHaHI&pid=Api&P=0&h=180" alt="instagram">
+                </a>
+            </div>
+            <!-- Address details -->
+            <div class="footer-details">
+                <h3>Address</h3>
+                <p class="footerparagraph">14 Penshurst</p>
+                <p class="footerparagraph">Leeds</p>
+            </div>
+        </div>
+    </footer> 
 </body>
 </html>
