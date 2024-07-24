@@ -1,112 +1,99 @@
 
-Welcome to Headmaster README file. We are a classy barbershop located in the heart of Leeds, providing topnotch grooming services for our esteemed clients. 
+# Welcome to Headmaster README file
+
+We are a classy barbershop located in the heart of Leeds, providing top-notch grooming services for our esteemed clients.
 
 This document serves as a guide to understand who we are, what we do, and how to interact with us.
+
 ![alt text](/images/image.png)
 
-Features
+## Features
 
-Navigation
+### Navigation
 
-* The navigation button should be by the left of the page
+* The navigation button should be by the left of the page.
+* The navigation text should be black in color.
+* The navigation text should be in upper case.
+* When the navigation link is clicked, it should take the customer to the specific section.
 
-* The navigation text should be black in colour
-
-* The navigation text should be in upper case
-
-* When the navigation link is clicked, it should take the customer to the specific section
 ![alt text](/images/image-1.png)
 
+### About Us (Homepage)
 
+* Given a customer lands on the homepage, the "about us" text is displayed right under a text that says "THE GENTLEMEN'S BARBERSHOP".
+* The about us text background should have a color of mediumaquamarine.
+* When the "about us" button is clicked, it navigates the customer to another page.
 
-About Us (Homepage)
-
-* Given a customer lands on the homepage, the "about us" text is displayed right under a text that says "THE GENTLEMEN'S BARBERSHOP"
-
-* The about us text background should have a colour of mediumaquamarine
-
-* When the "about us" button is click, it navigates customer to another page  
 ![alt text](/images/image-2.png)
 
-About Us Page
+### About Us Page
 
-* Given a customer is navigated to the "about us" page, show a paragraph that describes the headmaster business
+* Given a customer is navigated to the "about us" page, show a paragraph that describes the Headmaster business.
+* On the Headmaster "about us" page, display the price list.
+
 ![alt text](/images/image-3.png)
-
-* On the headmaster "about us" page display the price list
 ![alt text](/images/image-4.png)
 
+### Book An Appointment
 
+* Given a customer clicks on the "BOOK AN APPOINTMENT" button on the navigation link in the homepage, then they land on the "Schedule appointment" button.
+* When the "schedule appointment" is clicked, the customer is navigated to the book appointment page.
+* When a customer clicks on a timeslot, they are navigated to the User information page.
 
-Book An Appointment
-
-* Given a customer clicks on "BOOK AN APPOINTMENT" button on the navigation link in the homepage, then they land on "Schedule appointment" button
 ![alt text](/images/image-5.png)
-
-* When the "schedule appointment" is clicked, customer is navigated to book appointment page
 ![alt text](/images/image-6.png)
-
-* When a customer click on a timeslot, they are navigated to the User information page.
 ![alt text](/images/image-7.png)
 
+### User Information Page
 
-User Information Page
+* Add fields for details, more information, other services, and bank information to the user information page.
+* Add a submit and reset button.
+* Add validation to firstname, lastname, email, sort code, and account number on the user information page.
 
-
-* Add fields for details, more information, more information, other services, bank information to the user information page
-
-* Add a submit and reset button
-
-* Add validation to firstname, lastname, email, sort code and account number on the user information page
 ![alt text](/images/image-8.png)
 
-Payment Confirmation Page
+### Payment Confirmation Page
 
+* Given a user has submitted the user information form, then navigate the customer to the payment confirmation page.
 
-* Given a user has submitted the user information form, then navigate the customer to payment confirmation page
 ![alt text](/images/image-9.png)
 
-Testing
+## Testing
 
-* I can confirm this page works in chrome and microsoft edge
+* I can confirm this page works in Chrome and Microsoft Edge.
+* I can confirm the form on the user information page works.
+* I can confirm the navigation links work and the pages are responsive.
 
-* I can confirm the form in the user information page works 
+## Validator Testing
+No errors were returned when validating through the [W3C Validator](https://validator.w3.org/).
 
-* I can confirm the navigation links works and the pages are responsive
+## Accessibility
+Accessibility was verified and passed using Lighthouse in DevTools.
 
-Bugs
+- **Homepage**
+- **About Us Page**
+- **Book Appointment Page**
 
-* When I was working on other pages, I noticed the css was not applied 
-* I resolved this by using the link tag below
-<link rel="stylesheet" href="assets/css/style.css"> 
+## Unfixed Bug
+No unfixed bugs reported.
 
-Validator Testing
-* No error was returned when i validated through W3C validator
-![alt text](/images/image-10.png)
+## Deployment
+The site was deployed to GitHub Pages. Follow these steps for deployment:
 
-Accessibility 
+1. Navigate to the **Settings** on the repository.
+2. Click on **Pages** and select **main** as the branch.
+3. Save the settings and click on the generated link.
 
-* Accessibility passed based on lighthouse used in dev tool
-* Homepage
-![alt text](/images/image-11.png)
+The live site can be accessed here: [https://adebolafisayo.github.io/HeadMaster/](https://adebolafisayo.github.io/HeadMaster/)
 
-* About Us Page
-![alt text](/images/image-12.png)
+## Credits
+Most of the images and links were sourced from Google.
 
-* Book Appointment Page
-![alt text](/images/image-13.png)
+## Bugs
 
-Unfixed Bug
-* No unfixed bug
+* When I was working on other pages, I noticed the CSS was not applied.
+* I resolved this by using the link tag below:
 
-Deployment
-* The site was deployed to Github pages. The steps to follow for deployment are :
-* Navigate to settings on the repository
-* Click on pages and then select main as the branch
-* Save the main page, click on the link generated
-* The live link can be found here https://adebolafisayo.github.io/HeadMaster/
-
-Credits
-
-* Most of the images and link was copied from google.
+```html
+<link rel="stylesheet" href="assets/css/style.css">
 
