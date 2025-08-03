@@ -1,109 +1,118 @@
+/* HOME SECTION */
 #home {
-    display: flex;
-    background-image: url('https://tse4.mm.bing.net/th?id=OIP.47I3dbPAlPXQ-59O78JYKQHaFo&pid=Api&P=0&h=180');
-    background-repeat: no-repeat;
-    padding: 20px;
-  font-size: 200%;
-  text-align: center;
-  background-position: center;
-  background-size: cover;
-   width: auto;
-  align-items: center;
   display: flex;
   flex-direction: column;
-} 
-
-
-h1 {
-    color: crimson;
-    font-size: larger;
-    padding: 15px;
-    border: 19px;
-    background: black;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://tse4.mm.bing.net/th?id=OIP.47I3dbPAlPXQ-59O78JYKQHaFo&pid=Api&P=0&h=180');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  font-size: 200%;
+  text-align: center;
+  width: auto;
 }
 
+/* h1 tag */
+h1 {
+  color: crimson;
+  font-size: larger;
+  padding: 15px;
+  background: black;
+}
+
+/* OWNER SECTION STYLES  */
 #owner {
   background-image: url("https://media.istockphoto.com/id/1374453227/photo/shot-of-a-young-businesswoman-standing-in-an-office-at-work.webp?b=1&s=170667a&w=0&k=20&c=sUfpzZQt8vdDS-Ev7dbbwIbC9afxNchfAxecrO9WwHY=");
   background-repeat: no-repeat;
-   align-items: center; 
-   padding: 10px; 
- background-position: center; 
-
+  background-position: center;
+  align-items: center;
+  padding: 10px;
 }
+
 .owner p {
-    width: fit-content;
-    color: black;
-    font-size: 19px;
-    padding: 6px;
-    background: white;    
+  background: white;
+  color: black;
+  font-size: 19px;
+  padding: 6px;
+  width: fit-content;
 }
 
+/* GENERAL BUTTON STYLES */
 .button {
   padding: 10px 20px;
   background: white;
   color: darkred;
-  border: 2px solid black;     
-  border-radius: 12px;        
+  border: 2px solid black;
+  border-radius: 12px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* LINK COLOR*/
 a {
   color: black;
 }
 
+/*  COMPANY HISTORY PARAGRAPH */
 p.companyhistory {
-  text-align: left;
- display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 32px;    
- margin-bottom: 30px; 
+  text-align: left;
+  line-height: 32px;
+  margin-bottom: 30px;
 }
 
+/* SUBHEADERS  */
 h2 {
-  align-items: center;
   margin: 3px;
 }
 
+/* IMAGE FLOATING RIGHT  */
 .clipper-image {
   width: 10%;
-   height: auto; 
- float: right;
-display: inline-block;
+  height: auto;
+  float: right;
+  display: inline-block;
 }
 
-/* .text-align {
-  text-align: center;
-} */
-
+/* GALLERY STYLING */
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
-  }
+}
 
-  div.gallery img {
-      width: 70%;
-      height: auto;
-      }
+div.gallery img {
+  width: 70%;
+  height: auto;
+}
 
-      #location {
-        clear: left;
-        background-image: url("https://media.istockphoto.com/id/483659149/photo/professional-scissors.webp?b=1&s=170667a&w=0&k=20&c=jg_d5FMscvIxskjabgGzqSVtF_pCLNUHPT9rEwSpx_Q=");
-        background-repeat: no-repeat;
-        padding: 10px;
-        font-size: 100%; 
-      text-align: left;
-      background-position: center;
-      background-size: cover;  
-        height: 700px; 
-       width: auto; 
-       align-items: center; 
-     }  
- 
-   /* HEADER LAYOUT */
+/* LOCATION SECTION */
+#location {
+  clear: left;
+  background-image: url("https://media.istockphoto.com/id/483659149/photo/professional-scissors.webp?b=1&s=170667a&w=0&k=20&c=jg_d5FMscvIxskjabgGzqSVtF_pCLNUHPT9rEwSpx_Q=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  font-size: 100%;
+  text-align: left;
+  height: 700px;
+  width: auto;
+  align-items: center;
+}
+
+/*  HEADER STYLES  */
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -116,7 +125,7 @@ div.gallery {
   z-index: 999;
 }
 
-/* LOGO / TITLE */
+/* LOGO / SITE TITLE */
 .site-logo {
   font-size: 26px;
   font-weight: bold;
@@ -124,7 +133,7 @@ div.gallery {
   text-decoration: none;
 }
 
-/* NAV MENU */
+/* NAVIGATION BAR  */
 .navbar ul {
   list-style: none;
   display: flex;
@@ -145,92 +154,103 @@ div.gallery {
   color: crimson;
 }
 
+/* APPOINTMENT TABLE  */
+tr {
+  background: white;
+  border-radius: 20px;
+  margin-block: 10px;
+  padding: 1px;
+  margin: 20px;
+  width: auto;
+  height: 120px;
+}
 
-   tr  {
-    background: white;
-    border-radius: 20px;
-    border: 10px;
-    margin-block: 10px;
-    padding: 1px;
-    margin: 20px;
-    width: auto;
-   height: 120px;
+/* APPOINTMENT BOX */
+#appointment {
+  border-radius: 20px;
+  margin: 20px;
+}
 
-  }
+/* FORM STYLING */
+form {
+  background: white;
+  padding: 51px;
+  border: solid 1px #999;
+  width: 492px;
+  margin: 0 auto;
+}
 
-   #appointment {
-    border-radius: 20px;
-    margin: 20px;
-  }
+label {
+  display: flex;
+  margin-bottom: 8px;
+}
 
-  form {
-    
-    background: white;
-    right: auto;
-    padding: 51px;
-    border: solid;
-    width: 492px;             
-  }
+/* FORM BUTTONS  */
+button {
+  color: white;
+  background: darkred;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  label{
-    display: flex;
-  }
+button:hover {
+  background: crimson;
+}
 
-  button {   
-    color: white;
-    background: darkred;
-  }
+/* PRICES FLEX CONTAINER */
+.prices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
 
-  .prices {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 70%;
-    margin: 0 auto;
-  }
-  .price {
-    background-color: white;
-    border: 1px #9C7957 solid;
-    padding: 30px;
-    border-radius: 3px;
-    display: flex;
-    margin: 10px;
-    align-items: center;
-    justify-content: space-between;
-    width: 35%;
-  }
-  
+/* INDIVIDUAL PRICE BOX  */
+.price {
+  background-color: white;
+  border: 1px #9C7957 solid;
+  padding: 30px;
+  border-radius: 3px;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+
 .price span {
-
-   font-size: x-large;
+  font-size: x-large;
   background: burlywood;
   border: black;
   padding: 4%;
   border-radius: 100%;
-
 }
- .footer {
+
+/* FOOTER  */
+.footer {
   width: auto;
   background-color: dimgrey;
   display: flex;
- }
+}
 
 .footer-details {
   flex: 50%;
   padding: 10px;
 }
+
 img {
   width: 54px;
 }
+
 .height {
-  line-height: 32px;    
-  margin-bottom: 30px; 
+  line-height: 32px;
+  margin-bottom: 30px;
 }
+
 table {
   border-spacing: 30px;
   padding: 30px;
-  
 }
-
-
-  
