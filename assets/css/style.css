@@ -1,4 +1,5 @@
 #home {
+    display: flex;
     background-image: url('https://tse4.mm.bing.net/th?id=OIP.47I3dbPAlPXQ-59O78JYKQHaFo&pid=Api&P=0&h=180');
     background-repeat: no-repeat;
     padding: 20px;
@@ -38,12 +39,13 @@ h1 {
 }
 
 .button {
-  border-style: solid;
-  border-color: black;
-    border: 25px;
-    padding: 3px;
-    background:mediumaquamarine;
-    color: black;
+  padding: 10px 20px;
+  background: white;
+  color: darkred;
+  border: 2px solid black;     
+  border-radius: 12px;        
+  cursor: pointer;
+  font-size: 16px;
 }
 
 a {
