@@ -231,10 +231,12 @@ button:hover {
 
 /* FOOTER  */
 .footer {
-  width: auto;
   background-color: dimgrey;
-  display: flex;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
+
 
 .footer-details {
   flex: 50%;
@@ -253,4 +255,15 @@ img {
 table {
   border-spacing: 30px;
   padding: 30px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
